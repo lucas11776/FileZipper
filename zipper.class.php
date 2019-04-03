@@ -162,7 +162,7 @@ class Zipper
         // close zip archieve
         $this->close();
 
-			 // delete zipped file
+        // delete zipped file's
         if($this->delete){
             $this->delete();
         }
